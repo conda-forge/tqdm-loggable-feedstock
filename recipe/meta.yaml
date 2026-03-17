@@ -1,5 +1,5 @@
 {% set name = "tqdm-loggable" %}
-{% set version = "0.3" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tqdm_loggable-{{ version }}.tar.gz
-  sha256: a01d634fea248aa21d0a8ed20f250438e19faf8f299461a1c77ae50b0c5bb872
+  sha256: 49123ffcb2deb948edb7121d7e09a6008914e0d0333154f060e435deba9e547a
 
 build:
   entry_points:
